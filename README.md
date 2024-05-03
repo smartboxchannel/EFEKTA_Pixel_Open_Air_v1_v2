@@ -167,3 +167,10 @@ To remove the sensor from the zigbee network, hold down the button on the sensor
 
 ![EFEKTA Pixel Open Air](https://raw.githubusercontent.com/smartboxchannel/EFEKTA_Pixel_Open_Air/main/Images/005.png)
 
+### Идентификация
+
+Идентификация устройсва осуществляется отправкой команды identify time. Сразу после отправки команды датчик выведет на дисплей приветствие, по которому можно будет легко идентифицировать устройство.
+
+![EFEKTA Pixel Open Air](https://raw.githubusercontent.com/smartboxchannel/EFEKTA_Pixel_Open_Air/main/Images/008.png)
+
+
