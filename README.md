@@ -135,9 +135,9 @@ Forced manual calibration. Calibration is carried out in fresh air; you must lea
 
 #### Automatic self calibration
 
-Автоматическая самокалибровка реализованная производителем в серии датчиков MH-Z19.
+Автоматическая самокалибровка реализованная производителем в серии датчиков MH-Z19. На дисплее выводится индикация режима работы сенсора. *1
 
-Automatic self-calibration implemented by the manufacturer in the MH-Z19 series of sensors.
+Automatic self-calibration implemented by the manufacturer in the MH-Z19 series of sensors. The display shows an indication of the sensor operating mode. *1
 
 #### Co2 error read
 
@@ -170,6 +170,10 @@ Upper limit of carbon dioxide
 Lower limit of carbon dioxide
 
 ![EFEKTA Pixel Open Air](https://raw.githubusercontent.com/smartboxchannel/EFEKTA_Pixel_Open_Air/main/Images/004.png)
+
+*1 индикация работы Automatic self calibration (operation indication)
+
+![EFEKTA Pixel Open Air](https://raw.githubusercontent.com/smartboxchannel/EFEKTA_Pixel_Open_Air/main/Images/017.jpg)
 
 
 
