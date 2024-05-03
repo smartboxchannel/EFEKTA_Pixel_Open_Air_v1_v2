@@ -14,4 +14,8 @@ For non-commercial use only. It is forbidden to use the project or its parts for
 
 hello@efektalab.com
 
+Проект zigbee датчика мониторинга углекислого газа, температуры и влажности воздуха c LCD дисплеем EFEKTA Pixel Open Air.
+
+Zigbee project of a carbon dioxide, temperature and humidity monitoring sensor with an EFEKTA Pixel Open Air LCD display.
+
 
