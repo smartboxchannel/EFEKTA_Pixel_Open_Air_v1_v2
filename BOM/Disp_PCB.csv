@@ -1,0 +1,14 @@
+#;Name;RefDef;Quantity;Value;Datasheet;Order link
+1;PCD8544;U1;1;;48 x 84 pixels matrix LCD controller/driver (rfcandy.biz);https://aliexpress.ru/item/1005003389023974.html
+2;HTU21D;U2;1;;https://static.chipdip.ru/lib/825/DOC011825322.pdf;https://aliexpress.ru/item/1005006220199605.html
+3;BGR SMD LED;;4;0603 Anode Common;;https://aliexpress.ru/item/1005005499984495.html
+4;BSS138;Q1,Q2,Q3;3;SOT-23-3;https://static.chipdip.ru/lib/302/DOC021302169.pdf;https://aliexpress.ru/item/1005006659249726.html
+5;RES_0603;R3,R8,R9,R10;4;0603 5%;;https://aliexpress.ru/item/32864336129.html
+6;RES_0603;R5,R6,R7;3;750K 5%;;https://aliexpress.ru/item/1005005890043495.html
+7;RES_0603;R4;1;3K;;https://aliexpress.ru/item/1005001436923851.html
+8;RES_0603;R2;1;100R;;https://aliexpress.ru/item/1005001793545605.html
+9;CAP_0805;C5;1;10UG 10v;;https://aliexpress.ru/item/1005005139289975.html
+10;CAP_0603;C8;1;0.1UF 25v;;https://aliexpress.ru/item/1005005135314074.html
+11;PITCH SMT DS1031;U7,U8,U9,U10;4;3Px2 1.27mm;<463A5CB9A4B3CCCDBCD6BD5CB9A4B3CCCDBCD6BDA3A83244A3A95CB2FAC6B7BFCDBBA7CDBC5C4453313033312D30385C4453313033312D30382E647767204D6F64656C20283129> (dip8.ru);https://aliexpress.ru/item/1005001422512765.html
+;;;;;;
+;;;;;;
