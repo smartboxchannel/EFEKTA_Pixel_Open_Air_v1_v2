@@ -220,11 +220,11 @@ Min. change reporting interval - The amount of data change. For each type of dat
 
 ### Привязка датчика EFEKTA Pixel Open Air к исполнительному устройству, реле, розетке (Binding)
 
- Осуществляется на стороне датчика EFEKTA iAQ. Для привязки (биндинг) датчика EFEKTA iAQ к исполнительному устройству, для прямой передачи данных необходимо в веб интерфейсе zigbee2mqtt перейти на страницу датчика EFEKTA iAQ и далее на вкладку «Связь».
+ Осуществляется на стороне датчика EFEKTA Pixel Open Air. Для привязки (биндинг) датчика EFEKTA Pixel Open Air к исполнительному устройству, для прямой передачи данных необходимо в веб интерфейсе zigbee2mqtt перейти на страницу датчика EFEKTA Pixel Open Air и далее на вкладку «Связь».
 
 В первом поле слева выбрать «1», в следующем поле, в выпадающем списке выбрать исполнительное устройство к которому необходимо сделать привязку, в следующем поле ввести номер кластера на реле. Правее выбрать кластер OnOff. Еще правее нужно нажать на кнопку «Связать».
 
-Performed on the EFEKTA iAQ sensor side. To bind (binding) the EFEKTA iAQ sensor to the actuator, for direct data transfer, you need to go to the EFEKTA iAQ sensor page in the zigbee2mqtt web interface and then to the “Communication” tab.
+Performed on the EFEKTA Pixel Open Air sensor side. To bind (binding) the EFEKTA Pixel Open Air sensor to the actuator, for direct data transfer, you need to go to the EFEKTA Pixel Open Air sensor page in the zigbee2mqtt web interface and then to the “Communication” tab.
 
 In the first field on the left, select “1”, in the next field, in the drop-down list, select the actuator to which you want to bind, in the next field, enter the cluster number on the relay. To the right, select the OnOff cluster. Even further to the right you need to click on the “Link” button.
 
