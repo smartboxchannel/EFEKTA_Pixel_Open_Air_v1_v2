@@ -37,8 +37,6 @@ The sensor implements RGB backlighting of the display depending on the level of 
 
 The sensor is equipped with gasostat functionality. You can set CO2 levels (upper and lower), bind (binding) the sensor to an actuator, relay or socket, and the sensor, when crossing thresholds, will send commands to turn on or off to the bound actuator. This binding will work even if the smart home controller or Zigbee network coordinator are unavailable.
 
-![EFEKTA Pixel Open Air](https://raw.githubusercontent.com/smartboxchannel/EFEKTA_Pixel_Open_Air/main/Images/005.png)
-
 
 Для прошивки необходимо подключить базовую плату к SmartRF04EB и прошить через программу SmartRF Flash Programmer
 
@@ -161,5 +159,11 @@ To remove the sensor from the zigbee network, hold down the button on the sensor
 
 ![EFEKTA Pixel Open Air](https://raw.githubusercontent.com/smartboxchannel/EFEKTA_Pixel_Open_Air/main/Images/006.png)
 
+### Привязка датчика EFEKTA iAQ к исполнительному устройству(реле, розетки)
 
+ Осуществляется на стороне датчика EFEKTA iAQ. Для привязки (биндинг) датчика EFEKTA iAQ к исполнительному устройству, для прямой передачи данных необходимо в веб интерфейсе zigbee2mqtt перейти на страницу датчика EFEKTA iAQ и далее на вкладку «Связь».
+
+В первом поле слева выбрать «1», в следующем поле, в выпадающем списке выбрать исполнительное устройство к которому необходимо сделать привязку, в следующем поле ввести номер кластера на реле. Правее выбрать кластер OnOff. Еще правее нужно нажать на кнопку «Связать».
+
+![EFEKTA Pixel Open Air](https://raw.githubusercontent.com/smartboxchannel/EFEKTA_Pixel_Open_Air/main/Images/005.png)
 
