@@ -211,11 +211,17 @@ Min. change reporting interval - The amount of data change. For each type of dat
 
 В первом поле слева выбрать «1», в следующем поле, в выпадающем списке выбрать исполнительное устройство к которому необходимо сделать привязку, в следующем поле ввести номер кластера на реле. Правее выбрать кластер OnOff. Еще правее нужно нажать на кнопку «Связать».
 
+Performed on the EFEKTA iAQ sensor side. To bind (binding) the EFEKTA iAQ sensor to the actuator, for direct data transfer, you need to go to the EFEKTA iAQ sensor page in the zigbee2mqtt web interface and then to the “Communication” tab.
+
+In the first field on the left, select “1”, in the next field, in the drop-down list, select the actuator to which you want to bind, in the next field, enter the cluster number on the relay. To the right, select the OnOff cluster. Even further to the right you need to click on the “Link” button.
+
 ![EFEKTA Pixel Open Air](https://raw.githubusercontent.com/smartboxchannel/EFEKTA_Pixel_Open_Air/main/Images/005.png)
 
 ### Идентификация
 
 Идентификация устройсва осуществляется отправкой команды identify time. Сразу после отправки команды датчик выведет на дисплей приветствие, по которому можно будет легко идентифицировать устройство.
+
+Device identification is carried out by sending the identify time command. Immediately after sending the command, the sensor will display a greeting by which you can easily identify the device.
 
 ![EFEKTA Pixel Open Air](https://raw.githubusercontent.com/smartboxchannel/EFEKTA_Pixel_Open_Air/main/Images/008.png)
 
