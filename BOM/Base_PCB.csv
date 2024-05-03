@@ -1,0 +1,14 @@
+#;Name;RefDef;Quantity;Value;Datasheet;Order link
+1;E18-MS1PA2-PCB;U1;1;;E18-MS1PA1-PCB_Usermanual_v1.1.pdf (blakadder.com);https://aliexpress.ru/item/1005003830157348.html
+2;KLS7-TS6335;U4,U5;2;;https://static.chipdip.ru/lib/551/DOC001551926.pdf;https://aliexpress.ru/item/1005005650478905.html
+3;PPHF (DS1065-05-2X3S8BS);U2,U3,U8,U9;4;2x3 6p 1.27mm;<463A5CB9A4B3CCCDBCD6BD5CB9A4B3CCCDBCD6BDA3A83244A3A95CB2FAC6B7BFCDBBA7CDBC5C4453313036352D30355C4453313036352D30352E647767204D6F64656C20283129> (supply24.online);https://aliexpress.ru/item/32727562873.html
+4;RES_0603;R1;1;10K 5%;;https://aliexpress.ru/item/1005001793547200.html
+5;RES_0603;R2,R3;2;5.1K 1%;;https://aliexpress.ru/item/32864336129.html
+6;CON_0603;C1;4;0.1UF 25V;;https://aliexpress.ru/item/1005005135314074.html
+7;KLS7-TS3401;U12;1;;https://static.chipdip.ru/lib/463/DOC002463707.pdf;https://aliexpress.ru/item/33021806049.html
+8;AMS1117 3.3v;AMS1;1;3.3v;https://static.chipdip.ru/lib/050/DOC025050508.pdf;https://aliexpress.ru/item/1005004290986183.html
+9;mh-z19;C2,C3;2;47UF 16v D;https://static.chipdip.ru/lib/716/DOC005716155.pdf;https://www.chipdip.ru/product0/8008629894
+10;USB3.1 TYPE-C;U11;1;06pf-073;https://static.chipdip.ru/lib/045/DOC010045173.pdf;https://aliexpress.ru/item/1005004312022497.html
+11;MH-Z19;U10;1;CAL;MH-Z19 CO2 Ver1.0.pdf (winsen-sensor.com);https://aliexpress.ru/item/4001296615950.html
+12;PBS-4 (DS-1023 - 1x4);;;;https://static.chipdip.ru/lib/095/DOC006095303.pdf;https://www.chipdip.ru/product/pbs-4
+13;PBS-5 (DS-1023 - 1x5);;;;https://static.chipdip.ru/lib/095/DOC006095303.pdf;https://www.chipdip.ru/product/pbs-5
