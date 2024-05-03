@@ -209,7 +209,7 @@ const definition = {
         configure: async (device, coordinatorEndpoint, logger) => {
             const firstendpoint = device.getEndpoint(1);
             const secondendpoint = device.getEndpoint(2);
-            await reporting.bind(firstendpoint, coordinatorEndpoint, ['genTime', 'genIdentify', 'msCO2']);
+            await reporting.bind(firstendpoint, coordinatorEndpoint, ['genTime', 'msCO2']);
             await reporting.bind(secondendpoint, coordinatorEndpoint, ['msTemperatureMeasurement', 'msRelativeHumidity']);
             const payload1 = [{attribute: {ID: 0x0000, type: 0x39},
             minimumReportInterval: 15, maximumReportInterval: 600, reportableChange: 0.000001}];
