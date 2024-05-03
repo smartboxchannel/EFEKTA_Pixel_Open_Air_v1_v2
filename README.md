@@ -26,6 +26,8 @@ Thank the author: [https://yoomoney.ru/fundraise/P2XLTgJsB6k.231012](https://yoo
 
 Датчик оснащен функционалом газостата. Вы можете задать уровни СO2(верхний и нижний), привязать(биндинг) датчик к исполнительному устройству, реле или розетуке и датчик при переходе через пороги будет отправлять команды на включение или отключение на привязанное исполнителное устройство. Такая привязка будет работать даже если контроллер умного дома или координатор зигби сети будут недоступны.
 
+*1 В датчике реализован календарь событий, в определенные дни логотип зигби заменяется на логотип с событием, например новый год, количество добавленных событий не раскрывается, предлагается найти самомтоятельно эти пасхалки :)
+
 
 Zigbee project of a carbon dioxide, temperature and humidity monitoring sensor with an EFEKTA Pixel Open Air LCD display.
 
@@ -37,7 +39,12 @@ The sensor implements RGB backlighting of the display depending on the level of 
 
 The sensor is equipped with gasostat functionality. You can set CO2 levels (upper and lower), bind (binding) the sensor to an actuator, relay or socket, and the sensor, when crossing thresholds, will send commands to turn on or off to the bound actuator. This binding will work even if the smart home controller or Zigbee network coordinator are unavailable.
 
+The sensor implements an event calendar, on certain days the Zigbee logo is replaced with a logo with an event, for example, New Year, the number of added events is not disclosed, it is suggested that you find these Easter eggs yourself :)
+
 ![EFEKTA Pixel Open Air](https://raw.githubusercontent.com/smartboxchannel/EFEKTA_Pixel_Open_Air/main/Images/012.jpg) 
+
+*1
+![EFEKTA Pixel Open Air](https://raw.githubusercontent.com/smartboxchannel/EFEKTA_Pixel_Open_Air/main/Images/018.jpg) 
 
 
 Для прошивки необходимо подключить базовую плату к SmartRF04EB и прошить через программу SmartRF Flash Programmer
