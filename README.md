@@ -136,16 +136,30 @@ To operate the device on the zigbee network via zigbee2mqtt, an external convert
 
 
 
-### JOIN
+### Ввод в сеть (JOIN)
 
 Чтобы подключить датчик к сети, координатор должен быть включен для приема новых устройств. После этого нужно удерживать нажатой кнопку на датчике около 5 секунд, на дисплее появится сообщение о начале входа в сеть.
 
 To join the sensor to the network, the coordinator must be turned on to receive new devices. After that, you need to hold down the button on the sensor for about 5 seconds, a message will appear on the display about the start of logging in to the network.
 
 
-### LEAVE
+### Удаление из сети (LEAVE)
 
 Чтобы отключить датчик от сети zigbee, удерживайте нажатой кнопку на датчике около 10 секунд, и на дисплее появится сообщение о выходе из сети zigbee.
 
 To remove the sensor from the zigbee network, hold down the button on the sensor for about 10 seconds, and a message about disconnecting from the network will appear on the display.
+
+### Конфигурация отчетов (Zigbee2mqtt)
+
+Для конфигурации отчетов необходимо перейти на вкладку "Отчеты", и внести изменение в поля "Мин. интервал отчетов", "Макс. интервал отчетов", "Мин. интервал отчетов при изменении".
+
+Мин. интервал отчетов - время, через которое будет отправлен новый отчет, при условии что новые значение изменилось в любую сторону, на величину указанную в поле "Мин. интервал отчетов при изменении", в сравнении с пердыдушими значениями. Указывется время в секундах.
+
+Макс. интервал отчетов - время, через которое будет отправлен новый отчет, при условии что значения не менялись на величину больщую той которая уазана в поле "Мин. интервал отчетов при изменении". Указывется время в секундах.
+
+Мин. интервал отчетов при изменении - Величина изменения данных. Для каждого типа данных указывается в своем формате, например для температуры 1 отзанчает 0.01°C, так как данные передаются типом интегер16, например температура 22.54°C, будет передана датчиком так 2254.
+
+![EFEKTA Pixel Open Air](https://raw.githubusercontent.com/smartboxchannel/EFEKTA_Pixel_Open_Air/main/Images/006.png)
+
+
 
