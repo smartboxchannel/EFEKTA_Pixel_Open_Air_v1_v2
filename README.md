@@ -16,7 +16,24 @@ hello@efektalab.com
 
 Проект zigbee датчика мониторинга углекислого газа, температуры и влажности воздуха c LCD дисплеем EFEKTA Pixel Open Air.
 
+Датчик передает в сеть данные об уровне СO2, температуре и влажности воздуха. На дисплей помимо вывода уровня СO2, так же выводится график уровня углекослого газа за последние 24 часа. Датчик является роутером сети.
+
+Датчик работает с временем через zigbee сеть. Настройка времени происходит автоматически. На дисплей выводится текущие дата и время.
+
+В датчике реализована rgb подсветка дисплея в зависимости от уровня углекислого газа. В дополнение к rgb подсветке реализован функционал ночного режима по расписанию с полным отключением подстветки дисплея в заданным пользователем диапазоне времени.
+
+Датчик оснащен функционалом газостата. Вы можете задать уровни СO2(верхний и нижний), привязать(биндинг) датчик к исполнительному устройству, реле или розетуке и датчик при переходе через пороги будет отправлять команды на включение или отключение на привязанное исполнителное устройство. Такая привязка будет работать даже если контроллер умного дома или координатор зигби сети будут недоступны.
+
+
 Zigbee project of a carbon dioxide, temperature and humidity monitoring sensor with an EFEKTA Pixel Open Air LCD display.
+
+The sensor transmits data on CO2 levels, air temperature and humidity to the network. In addition to displaying the CO2 level, the display also displays a graph of the carbon dioxide level for the last 24 hours. The sensor is a network router.
+
+The sensor works with time via a zigbee network. The time is adjusted automatically. The display shows the current date and time.
+
+The sensor implements RGB backlighting of the display depending on the level of carbon dioxide. In addition to RGB backlighting, the functionality of a night mode according to a schedule is implemented with complete shutdown of the display backlight in a user-specified time range.
+
+The sensor is equipped with gasostat functionality. You can set CO2 levels (upper and lower), bind (binding) the sensor to an actuator, relay or socket, and the sensor, when crossing thresholds, will send commands to turn on or off to the bound actuator. This binding will work even if the smart home controller or Zigbee network coordinator are unavailable.
 
 ![EFEKTA Pixel Open Air](https://raw.githubusercontent.com/smartboxchannel/EFEKTA_Pixel_Open_Air/main/Images/001.png) 
 
