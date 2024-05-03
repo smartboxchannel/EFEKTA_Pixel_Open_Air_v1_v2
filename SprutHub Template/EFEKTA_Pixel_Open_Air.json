@@ -1,0 +1,227 @@
+{
+  "manufacturer": "EfektaLab",
+  "model": "EFEKTA_Pixel_Open_Air",
+  "manufacturerId": "EfektaLab",
+  "modelId": "EFEKTA_Pixel_Open_Air",
+  "init": [
+    {
+      "link": {
+        "endpoint": 1,
+        "cluster": "040D_CarbonDioxide",
+        "attribute": "0000_MeasuredValue"
+      },
+      "bind": true,
+      "report": {
+        "min": 15,
+        "max": 3600,
+        "change": 0,000001
+	  }
+    },
+    {
+      "link": {
+        "endpoint": 1,
+        "cluster": "000A_Time",
+        "attribute": "0007_LocalTime"
+      },
+      "bind": true
+    },      
+	{
+      "link": {
+        "endpoint": 2,
+        "cluster": "0402_TemperatureMeasurement",
+        "attribute": "0000_MeasuredValue"
+      },
+      "bind": true,
+      "report": {
+        "min": 15,
+        "max": 3600,
+        "change": 10
+	  }
+    },
+    {
+      "link": {
+        "endpoint": 2,
+        "cluster": "0405_RelativeHumidityMeasurement",
+        "attribute": "0000_MeasuredValue"
+      },
+      "bind": true,
+      "report": {
+        "min": 15,
+        "max": 3600,
+        "change": 10
+	  }
+    }
+  ],
+  "services": [
+    {
+      "type": "CarbonDioxideSensor",
+      "logics": [
+        {
+          "type": "CarbonDioxideDetectedFromCarbonDioxideLevel"
+        }
+      ],
+      "characteristics": [
+        {
+          "type": "CarbonDioxideLevel",
+          "link": [
+            {
+              "endpoint": 1,
+              "cluster": "040D_CarbonDioxide",
+              "attribute": "0000_MeasuredValue"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "TemperatureSensor",
+      "characteristics": [
+        {
+          "type": "CurrentTemperature",
+          "link": {
+            "endpoint": 2,
+            "cluster": "0402_TemperatureMeasurement",
+            "attribute": "0000_MeasuredValue"
+          }
+        }
+      ]
+    },
+    {
+      "type": "HumiditySensor",
+      "characteristics": [
+        {
+          "type": "CurrentRelativeHumidity",
+          "link": {
+            "endpoint": 2,
+            "cluster": "0405_RelativeHumidityMeasurement",
+            "attribute": "0000_MeasuredValue"
+          }
+        }
+      ]
+    }
+  ],
+  "options": [
+    {
+      "link": {
+        "endpoint": 1,
+        "cluster": "040D_CarbonDioxide",
+        "attribute": "0402_AutoRecalibration"
+		},
+      "name": "Включение автокалибровки датчика CO2",
+      "type": "Boolean",
+      "init": false,
+      "value": true
+    },
+    {
+      "link": {
+        "endpoint": 1,
+        "cluster": "040D_CarbonDioxide",
+        "attribute": "0202_ForceRecalibration"
+		},
+      "name": "Принудительная калибровка датчика CO2 на атмосферный уровень CO2",
+      "type": "Boolean",
+      "init": false,
+      "value": false
+    },
+	{
+      "link": {
+        "endpoint": 1,
+        "cluster": "040D_CarbonDioxide",
+        "attribute": "0445_Contrast"
+		},
+      "name": "Коррекция контрастности lcd дисплея",
+      "type": "Integer",
+      "init": false,
+      "value": 14,
+      "minValue": 0,
+      "maxValue": 40
+    },
+	{
+      "link": {
+        "endpoint": 1,
+        "cluster": "040D_CarbonDioxide",
+        "attribute": "0211_Backlight"
+		},
+      "name": "RGB подсветка дисплея",
+      "type": "Boolean",
+      "init": false,
+      "value": true
+    },
+	{
+      "link": {
+        "endpoint": 1,
+        "cluster": "040D_CarbonDioxide",
+        "attribute": "0401_Nightbacklight"
+		},
+      "name": "RGB подсветка дисплея",
+      "type": "Boolean",
+      "init": false,
+      "value": false
+    },
+	{
+      "link": {
+        "endpoint": 1,
+        "cluster": "040D_CarbonDioxide",
+        "attribute": "0405_Nightbacklighton"
+		},
+      "name": "Время активации ночного режима",
+      "type": "Integer",
+      "init": false,
+      "value": 22,
+      "minValue": 0,
+      "maxValue": 23
+    },
+	{
+      "link": {
+        "endpoint": 1,
+        "cluster": "040D_CarbonDioxide",
+        "attribute": "0406_Nightbacklightoff"
+		},
+      "name": "Время деактивации ночного режима",
+      "type": "Integer",
+      "init": false,
+      "value": 6,
+      "minValue": 0,
+      "maxValue": 23
+    },
+	{
+      "link": {
+        "endpoint": 1,
+        "cluster": "0402_TemperatureMeasurement",
+        "attribute": "0210_TempCorrection"
+      },
+      "name": "Корректировка температуры",
+      "type": "Integer",
+      "init": false,
+      "value": 0,
+      "minValue": -50,
+      "maxValue": 50,
+      "minStep": 0.1
+    },
+    {
+      "link": {
+        "endpoint": 1,
+        "cluster": "0405_RelativeHumidityMeasurement",
+        "attribute": "0210_HumidityCorrection"
+      },
+      "name": "Корректировка влажности",
+      "type": "Integer",
+      "init": false,
+      "value": 0,
+      "minValue": -50,
+      "maxValue": 50
+    },
+	{
+      "link": {
+        "endpoint": 1,
+        "cluster": "0006_OnOff",
+        "output": true
+      },
+      "name": "Прямая работа вкл/выкл",
+      "description": "Работает биндинг только одного параметра.",
+      "type": "String",
+      "bind": true,
+      "bindGroup": true
+    }
+  ]
+}
