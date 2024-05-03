@@ -33,13 +33,13 @@ The sensor works with time via a zigbee network. The time is adjusted automatica
 
 The sensor implements RGB backlighting of the display depending on the level of carbon dioxide. In addition to RGB backlighting, the functionality of a night mode according to a schedule is implemented with complete shutdown of the display backlight in a user-specified time range.
 
+![EFEKTA Pixel Open Air](https://raw.githubusercontent.com/smartboxchannel/EFEKTA_Pixel_Open_Air/main/Images/008.png)
+
 The sensor is equipped with gasostat functionality. You can set CO2 levels (upper and lower), bind (binding) the sensor to an actuator, relay or socket, and the sensor, when crossing thresholds, will send commands to turn on or off to the bound actuator. This binding will work even if the smart home controller or Zigbee network coordinator are unavailable.
 
 ![EFEKTA Pixel Open Air](https://raw.githubusercontent.com/smartboxchannel/EFEKTA_Pixel_Open_Air/main/Images/001.png) 
 
 ![EFEKTA Pixel Open Air](https://raw.githubusercontent.com/smartboxchannel/EFEKTA_Pixel_Open_Air/main/Images/003.png)
-
-![EFEKTA Pixel Open Air](https://raw.githubusercontent.com/smartboxchannel/EFEKTA_Pixel_Open_Air/main/Images/004.png)
 
 Для прошивки необходимо подключить базовую плату к SmartRF04EB и прошить через программу SmartRF Flash Programmer
 
@@ -51,6 +51,7 @@ For firmware, you need to connect the base board to SmartRF04EB and flash it thr
 
 To operate the device on the zigbee network via zigbee2mqtt, an external converter must be installed.
 
+![EFEKTA Pixel Open Air](https://raw.githubusercontent.com/smartboxchannel/EFEKTA_Pixel_Open_Air/main/Images/004.png)
 
 ### Основные данные:
 
