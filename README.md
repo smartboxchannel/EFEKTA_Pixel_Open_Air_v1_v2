@@ -219,6 +219,8 @@ In the first field on the left, select “1”, in the next field, in the drop-d
 
 ![EFEKTA Pixel Open Air](https://raw.githubusercontent.com/smartboxchannel/EFEKTA_Pixel_Open_Air/main/Images/005.png)
 
+![EFEKTA Pixel Open Air](https://raw.githubusercontent.com/smartboxchannel/EFEKTA_Pixel_Open_Air/main/Images/014.jpg)
+
 
 ### Идентификация
 
