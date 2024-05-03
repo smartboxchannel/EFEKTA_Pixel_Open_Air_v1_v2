@@ -218,7 +218,7 @@ Min. change reporting interval - The amount of data change. For each type of dat
 
 ![EFEKTA Pixel Open Air](https://raw.githubusercontent.com/smartboxchannel/EFEKTA_Pixel_Open_Air/main/Images/006.png)
 
-### Привязка датчика EFEKTA iAQ к исполнительному устройству, реле, розетке (Binding)
+### Привязка датчика EFEKTA Pixel Open Air к исполнительному устройству, реле, розетке (Binding)
 
  Осуществляется на стороне датчика EFEKTA iAQ. Для привязки (биндинг) датчика EFEKTA iAQ к исполнительному устройству, для прямой передачи данных необходимо в веб интерфейсе zigbee2mqtt перейти на страницу датчика EFEKTA iAQ и далее на вкладку «Связь».
 
