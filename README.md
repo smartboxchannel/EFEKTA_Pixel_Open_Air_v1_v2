@@ -56,19 +56,29 @@ To operate the device on the zigbee network via zigbee2mqtt, an external convert
 
 Уровень углекислого газа
 
+Carbon dioxide level
+
 #### Temperature
 
 Измеренное значение с встроенного сенсора температуры
+
+Measured value from built-in temperature sensor
 
 #### Humidity
 
 Измеренное значение с встроенного сенсора влажности воздуха
 
+Measured value from the built-in air humidity sensor
+
 #### Linkquality
 
 Качество связи (мощность сигнала) *1
 
+Communication quality (signal strength) *1
+
 *1 Качество связи, свойство которое не передается датчиком, а расчитывается координатором сети на основе оценки полученных данных.
+
+*1 Communication quality, a property that is not transmitted by the sensor, but is calculated by the network coordinator based on an assessment of the received data.
 
 
 ### Конфигурационные данные:
@@ -77,57 +87,85 @@ To operate the device on the zigbee network via zigbee2mqtt, an external convert
 
 Включение rgb подсветки дисплея.
 
+Turn on the RGB backlight of the display.
+
 #### Night backlight
 
 Полное отключение подсветки в ночном режиме, по умолчанию деактивировано
+
+Complete disabling of the backlight in night mode, deactivated by default
 
 #### Night backlight on
 
 Время активации ночного режима
 
+Night mode activation time
+
 #### Night backlight off
 
 Время отключения ночного режима
+
+Night mode switch-off time
 
 #### Contrast
 
 Регулировка контрастности lcd дисплея
 
+Adjusting the contrast of the LCD display
+
 #### Temperature offset
 
 Отрегулировать температуру внутреннего сенсора температуры, шаг 0.1 градус
+
+Adjust the temperature of the internal temperature sensor, step 0.1 degrees
 
 #### Humidity offset
 
 Отрегулировать влажность воздуха внутреннего сенсора влажности, шаг 1 процент
 
+Adjust the air humidity of the internal humidity sensor, step 1 percent
+
 #### Forced_recalibration
 
 Форсированная ручная калибровка. Калибровка осуществляется на свежем воздухе, необходимо оставить датчик на чистом воздухе на 60 минут, по истечении этого времени отправить команду. Время калибровки примерно 5 секунд, после завершения калибровки точке соответствующей чистому воздуху будет задано значение в 400ppm. Датчик отправит команду «выключено» по завершению калибровки
+
+Forced manual calibration. Calibration is carried out in fresh air; you must leave the sensor in clean air for 60 minutes, after this time, send a command. Calibration time is approximately 5 seconds, after calibration is completed, the point corresponding to clean air will be set to 400ppm. The sensor will send a "off" command when calibration is complete
 
 #### Automatic self calibration
 
 Автоматическая самокалибровка реализованная производителем в серии датчиков MH-Z19.
 
+Automatic self-calibration implemented by the manufacturer in the MH-Z19 series of sensors.
+
 #### Co2 error read
 
 Количество неудачных попыток чтения сенсора MH-Z19
+
+Number of failed attempts to read the MH-Z19 sensor
 
 #### Enable_gas
 
 Включение функционала газостата. Управление реле к которому привязан датчик. Для работы данного функционала необходимо сделать привязку к исполнительному устройству(реле, розетки)
 
+Enabling the gasostat functionality. Control of the relay to which the sensor is attached. For this functionality to work, it is necessary to bind to an actuator (relay, socket)
+
 #### Invert_logic_gas
 
 Инвертирует логику работы управления исполнительными устройствами. Пример. Если опция отключена, при превышение верхнего заданного порога углекислого газа датчик отправит команду «Включить» на привязанное реле. Если опция включена, при превышение верхнего заданного порога углекислого газа датчик отправит команду «Выключить» на привязанное реле.
+
+Inverts the logic of the control of actuators. Example. If the option is disabled, when the upper specified carbon dioxide threshold is exceeded, the sensor will send the “Enable” command to the associated relay. If the option is enabled, when the upper specified carbon dioxide threshold is exceeded, the sensor will send the “Shutdown” command to the associated relay.
 
 #### High_gas
 
 Верхний порог углекислого газа
 
+Upper limit of carbon dioxide
+
 #### Low_gas
 
 Нижний порог углекислого газа
+
+Lower limit of carbon dioxide
 
 ![EFEKTA Pixel Open Air](https://raw.githubusercontent.com/smartboxchannel/EFEKTA_Pixel_Open_Air/main/Images/004.png)
 
