@@ -217,7 +217,6 @@ In the first field on the left, select “1”, in the next field, in the drop-d
 
 ![EFEKTA Pixel Open Air](https://raw.githubusercontent.com/smartboxchannel/EFEKTA_Pixel_Open_Air/main/Images/005.png)
 
-![EFEKTA Pixel Open Air](https://raw.githubusercontent.com/smartboxchannel/EFEKTA_Pixel_Open_Air/main/Images/011.gif)
 
 ### Идентификация
 
@@ -226,5 +225,7 @@ In the first field on the left, select “1”, in the next field, in the drop-d
 Device identification is carried out by sending the identify time command. Immediately after sending the command, the sensor will display a greeting by which you can easily identify the device.
 
 ![EFEKTA Pixel Open Air](https://raw.githubusercontent.com/smartboxchannel/EFEKTA_Pixel_Open_Air/main/Images/008.png)
+
+![EFEKTA Pixel Open Air](https://raw.githubusercontent.com/smartboxchannel/EFEKTA_Pixel_Open_Air/main/Images/011.gif)
 
 
