@@ -195,6 +195,14 @@ To remove the sensor from the zigbee network, hold down the button on the sensor
 
 Мин. интервал отчетов при изменении - Величина изменения данных. Для каждого типа данных указывается в своем формате, например для температуры 1 отзанчает 0.01°C, так как данные передаются типом интегер16, например температура 22.54°C, будет передана датчиком так 2254.
 
+To configure reports, you need to go to the "Reports" tab and make changes in the fields "Min. report interval", "Max. report interval", "Min. report interval when changed".
+
+Min. reporting interval - the time after which a new report will be sent, provided that the new value has changed in any direction by the amount specified in the "Min. reporting interval when changing" field, in comparison with the previous values. The time is indicated in seconds.
+
+Max. report interval - the time after which a new report will be sent, provided that the values have not changed by an amount greater than that specified in the "Min. report interval when changed" field. The time is indicated in seconds.
+
+Min. change reporting interval - The amount of data change. For each type of data, it is indicated in its own format, for example, for temperature 1 it will be 0.01°C, since the data is transmitted as an integer16, for example, temperature 22.54°C will be transmitted by the sensor as 2254.
+
 ![EFEKTA Pixel Open Air](https://raw.githubusercontent.com/smartboxchannel/EFEKTA_Pixel_Open_Air/main/Images/006.png)
 
 ### Привязка датчика EFEKTA iAQ к исполнительному устройству(реле, розетки)
