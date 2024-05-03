@@ -187,7 +187,7 @@ To join the sensor to the network, the coordinator must be turned on to receive 
 
 To remove the sensor from the zigbee network, hold down the button on the sensor for about 10 seconds, and a message about disconnecting from the network will appear on the display.
 
-### Конфигурация отчетов (Zigbee2mqtt)
+### Конфигурация отчетов Zigbee2mqtt (Report configuration)
 
 Для конфигурации отчетов необходимо перейти на вкладку "Отчеты", и внести изменение в поля "Мин. интервал отчетов", "Макс. интервал отчетов", "Мин. интервал отчетов при изменении".
 
@@ -207,7 +207,7 @@ Min. change reporting interval - The amount of data change. For each type of dat
 
 ![EFEKTA Pixel Open Air](https://raw.githubusercontent.com/smartboxchannel/EFEKTA_Pixel_Open_Air/main/Images/006.png)
 
-### Привязка датчика EFEKTA iAQ к исполнительному устройству(реле, розетки)
+### Привязка датчика EFEKTA iAQ к исполнительному устройству, реле, розетке (Binding)
 
  Осуществляется на стороне датчика EFEKTA iAQ. Для привязки (биндинг) датчика EFEKTA iAQ к исполнительному устройству, для прямой передачи данных необходимо в веб интерфейсе zigbee2mqtt перейти на страницу датчика EFEKTA iAQ и далее на вкладку «Связь».
 
@@ -222,7 +222,7 @@ In the first field on the left, select “1”, in the next field, in the drop-d
 ![EFEKTA Pixel Open Air](https://raw.githubusercontent.com/smartboxchannel/EFEKTA_Pixel_Open_Air/main/Images/014.jpg)
 
 
-### Идентификация
+### Идентификация (Identify)
 
 Идентификация устройсва осуществляется отправкой команды identify time. Сразу после отправки команды датчик выведет на дисплей приветствие, по которому можно будет легко идентифицировать устройство.
 
@@ -233,3 +233,16 @@ Device identification is carried out by sending the identify time command. Immed
 ![EFEKTA Pixel Open Air](https://raw.githubusercontent.com/smartboxchannel/EFEKTA_Pixel_Open_Air/main/Images/011.gif)
 
 
+### Сборка датчика (Assembly)
+
+На фото подожение штырьевого разъема, в котором он должен напаиватся к плате сенсора.
+
+The photo shows the contact connector and its position in which it should be soldered to the sensor board.
+
+![EFEKTA Pixel Open Air](https://raw.githubusercontent.com/smartboxchannel/EFEKTA_Pixel_Open_Air/main/Images/015.jpg)
+
+Этапы сборки
+
+Assembly steps
+
+![EFEKTA Pixel Open Air](https://raw.githubusercontent.com/smartboxchannel/EFEKTA_Pixel_Open_Air/main/Images/016.jpg)
