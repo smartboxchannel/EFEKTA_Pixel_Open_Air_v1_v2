@@ -12,4 +12,6 @@ Thank the author: [https://yoomoney.ru/fundraise/P2XLTgJsB6k.231012](https://yoo
 
 For non-commercial use only. It is forbidden to use the project or its parts for commercial purposes without the consent of the author of the project.
 
+hello@efektalab.com
+
 
