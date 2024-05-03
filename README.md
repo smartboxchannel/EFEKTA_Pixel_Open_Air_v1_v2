@@ -24,4 +24,6 @@ Zigbee project of a carbon dioxide, temperature and humidity monitoring sensor w
 
 ![EFEKTA Pixel Open Air](https://raw.githubusercontent.com/smartboxchannel/EFEKTA_Pixel_Open_Air/main/Images/004.png)
 
+Для прошивки необходимо подключить базовую плату к SmartRF04EB и прошить через программу SmartRF Flash Programmer
 
+For firmware, you need to connect the base board to SmartRF04EB and flash it through the SmartRF Flash Programmer program
