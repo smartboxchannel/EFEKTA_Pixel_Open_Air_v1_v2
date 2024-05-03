@@ -235,7 +235,7 @@ Device identification is carried out by sending the identify time command. Immed
 
 ### Сборка датчика (Assembly)
 
-На фото подожение штырьевого разъема, в котором он должен напаиватся к плате сенсора.
+На фото положение штырьевого разъема, в котором он должен напаиватся к плате сенсора.
 
 The photo shows the contact connector and its position in which it should be soldered to the sensor board.
 
