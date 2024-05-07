@@ -8,6 +8,11 @@ Thank the author: [https://yoomoney.ru/fundraise/P2XLTgJsB6k.231012](https://yoo
 
 Продажа DIY Устройств - https://t.me/diydevmart
 
+#### В телеграм канале DIY DEV проводится розыгрыш 5 датчиков СO2. Условия участия вы можете узнать по ссылке - https://t.me/diy_devices/54492
+
+#### Розыгрыш состоится 31 мая 2024года. Призы в этом розыгрыше довольно ценные, а шансы на удачу довольно высоки.
+
+
 ##### Только для не коммерческого использования. Запрещается использовать проект или его части в коммерческих целях без согласования с автором проекта.
 
 ##### For non-commercial use only. It is forbidden to use the project or its parts for commercial purposes without the consent of the author of the project.
