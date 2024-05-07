@@ -1,4 +1,4 @@
-# EFEKTA_Pixel_Open_Air
+# EFEKTA Pixel Open Air v1
 
 #### В телеграм канале DIY DEV проводится розыгрыш 5 датчиков СO2. Условия участия вы можете узнать по ссылке - https://t.me/diy_devices/54492
 
