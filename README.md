@@ -1,5 +1,9 @@
 # EFEKTA_Pixel_Open_Air
 
+#### В телеграм канале DIY DEV проводится розыгрыш 5 датчиков СO2. Условия участия вы можете узнать по ссылке - https://t.me/diy_devices/54492
+
+#### Розыгрыш состоится 31 мая 2024 года. Призы в этом розыгрыше довольно ценные, а шансы на удачу довольно высоки.
+
 Поблагодарить автора: [https://yoomoney.ru/fundraise/P2XLTgJsB6k.231012](https://yoomoney.ru/fundraise/P2XLTgJsB6k.231012)
 
 Thank the author: [https://yoomoney.ru/fundraise/P2XLTgJsB6k.231012](https://yoomoney.ru/fundraise/P2XLTgJsB6k.231012)
@@ -7,10 +11,6 @@ Thank the author: [https://yoomoney.ru/fundraise/P2XLTgJsB6k.231012](https://yoo
 Телеграм чат DIY Devices - https://t.me/diy_devices
 
 Продажа DIY Устройств - https://t.me/diydevmart
-
-#### В телеграм канале DIY DEV проводится розыгрыш 5 датчиков СO2. Условия участия вы можете узнать по ссылке - https://t.me/diy_devices/54492
-
-#### Розыгрыш состоится 31 мая 2024 года. Призы в этом розыгрыше довольно ценные, а шансы на удачу довольно высоки.
 
 
 ##### Только для не коммерческого использования. Запрещается использовать проект или его части в коммерческих целях без согласования с автором проекта.
