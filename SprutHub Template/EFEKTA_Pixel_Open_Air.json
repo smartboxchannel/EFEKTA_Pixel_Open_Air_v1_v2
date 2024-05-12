@@ -23,7 +23,7 @@
         "cluster": "000A_Time",
         "attribute": "0007_LocalTime"
       },
-      "bind": true
+      "bind": false
     },      
 	{
       "link": {
@@ -211,7 +211,7 @@
       "minValue": -50,
       "maxValue": 50
     },
-   {
+	{
       "link": {
         "endpoint": 1,
         "cluster": "040D_CarbonDioxide",
