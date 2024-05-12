@@ -211,6 +211,54 @@
       "minValue": -50,
       "maxValue": 50
     },
+   {
+      "link": {
+        "endpoint": 1,
+        "cluster": "040D_CarbonDioxide",
+        "attribute": "0220_Enable"
+		},
+      "name": "Газостат СО2",
+      "type": "Boolean",
+      "init": false,
+      "value": false
+    },
+	{
+      "link": {
+        "endpoint": 1,
+        "cluster": "040D_CarbonDioxide",
+        "attribute": "0225_Invert"
+		},
+      "name": "Газостат СО2, Инвертирование",
+      "type": "Boolean",
+      "init": false,
+      "value": false
+    },
+	{
+      "link": {
+        "endpoint": 1,
+        "cluster": "040D_CarbonDioxide",
+        "attribute": "0221_HighBorder"
+		},
+      "name": "Газостат СО2, верхняя граница",
+      "type": "Integer",
+      "init": false,
+      "value": 1,
+      "minValue": 400,
+      "maxValue": 2000
+	},
+	{
+      "link": {
+        "endpoint": 1,
+        "cluster": "040D_CarbonDioxide",
+        "attribute": "0222_LowBorder"
+		},
+      "name": "Газостат СО2, нижняя граница",
+      "type": "Integer",
+      "init": false,
+      "value": 1,
+      "minValue": 400,
+      "maxValue": 2000
+	},
 	{
       "link": {
         "endpoint": 1,
