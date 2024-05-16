@@ -1,8 +1,11 @@
 {
+  "name": "EFEKTA_Pixel_Open_Air",
   "manufacturer": "EfektaLab",
   "model": "EFEKTA_Pixel_Open_Air",
-  "manufacturerId": "EfektaLab",
+  "manufacturerId": "EfektaLab for you",
   "modelId": "EFEKTA_Pixel_Open_Air",
+  "catalogId": -1,
+  "status": "Test",
   "init": [
     {
       "link": {
