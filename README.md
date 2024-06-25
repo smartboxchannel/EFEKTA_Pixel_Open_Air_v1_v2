@@ -1,6 +1,6 @@
 # EFEKTA Pixel Open Air v1
 
-(MH-Z19/B/C/D/E)
+(Sensair S8 / MH-Z19/B/C/D/E)
 
 #### В телеграм канале DIY DEV проводится розыгрыш 5 датчиков СO2. Условия участия вы можете узнать по ссылке - https://t.me/diy_devices/54492
 
@@ -125,9 +125,9 @@ Night mode switch-off time
 
 #### Contrast
 
-Регулировка контрастности lcd дисплея
+Регулировка контрастности lcd дисплея *(работает на некоторых моделях дисплеев)
 
-Adjusting the contrast of the LCD display
+Adjusting the contrast of the LCD display *(works on some display models)
 
 #### Temperature offset
 
