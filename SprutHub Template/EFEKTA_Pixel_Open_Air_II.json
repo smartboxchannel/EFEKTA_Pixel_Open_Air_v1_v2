@@ -1,9 +1,9 @@
 {
-  "name": "Дачик CO2 EFEKTA (MH-Z19)",
+  "name": "Дачик CO2 EFEKTA (SensAir S8)",
   "manufacturer": "EfektaLab",
-  "model": "EFEKTA_Pixel_Open_Air",
+  "model": "EFEKTA_Pixel_Open_Air_II",
   "manufacturerId": "EfektaLab for you",
-  "modelId": "EFEKTA_Pixel_Open_Air",
+  "modelId": "EFEKTA_Pixel_Open_Air_II",
   "catalogId": -1,
   "status": "Test",
   "init": [
@@ -73,18 +73,6 @@
           "endpoint": 1,
           "cluster": "040D_CarbonDioxide",
           "attribute": "0221_Custom",
-          "zclDataType": "UNSIGNED_16_BIT_INTEGER"
-        },
-		{
-          "endpoint": 1,
-          "cluster": "040D_CarbonDioxide",
-          "attribute": "0202_Custom",
-          "zclDataType": "BOOLEAN"
-        },
-		{
-          "endpoint": 1,
-          "cluster": "040D_CarbonDioxide",
-          "attribute": "0207_Custom",
           "zclDataType": "UNSIGNED_16_BIT_INTEGER"
         },
 		{
@@ -186,18 +174,6 @@
       "init": true,
       "value": true
     },
-	{
-      "link": {
-        "endpoint": 1,
-        "cluster": "040D_CarbonDioxide",
-        "attribute": "0202_Custom"
-		},
-      "name": "Калибровка датчика на свежем воздухе",
-	  "description": "Встроенный функционал от производителя сенсора, оставить датчик на открытом воздухе на 1 час, потом активировать калибровку, к измеренному воздуху будет привязана точка в 400 ppm.",
-      "type": "Boolean",
-      "init": true,
-      "value": false
-    },
     {
       "link": {
         "endpoint": 1,
@@ -233,7 +209,7 @@
 		"read": false
 		},
       "name": "Отключение RGB подсветки дисплея в ночном режиме",
-	  "description": "Работает по заданным временным порогам в свойствах активация и деактивация ночного режима.",
+	  "description": "Работает по заданным временным порогам в свойствах активация и деактивация ночнорго режима.",
       "type": "Boolean",
       "init": true,
       "value": false
