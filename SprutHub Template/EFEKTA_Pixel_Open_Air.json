@@ -163,12 +163,40 @@
   ],
   "options": [
     {
+        "link": {
+          "endpoint": 1,
+          "cluster": "0003_Identify",
+          "attribute": "0000_IdentifyTime"
+        },
+        "name": "Идентификация устройства 10",
+		"description": "На дисплее датчика будет выведено приветствие, продолжительность идентификации 10 секунд",
+        "type": "Integer",
+		"unit": "сек.",
+		"init": false,
+		"value": 10,
+		"input": "button"
+    },
+	{
+        "link": {
+          "endpoint": 1,
+          "cluster": "0003_Identify",
+          "attribute": "0000_IdentifyTime"
+        },
+        "name": "Идентификация устройства 60",
+		"description": "На дисплее датчика будет выведено приветствие, продолжительность идентификации 60 секунд",
+        "type": "Integer",
+		"unit": "сек.",
+		"init": false,
+		"value": 60,
+		"input": "button"
+    },
+    {
       "link": {
         "endpoint": 1,
         "cluster": "040D_CarbonDioxide",
         "attribute": "0445_Custom"
       },
-      "name": "Количество ошибое чтения сенсора CO2",
+      "name": "Количество ошибок чтения сенсора CO2",
       "type": "Integer",
       "write": false,
       "input": "status",
@@ -183,7 +211,7 @@
       "name": "Включение автокалибровки датчика CO2",
 	  "description": "Встроенный функционал от производителя сенсора, подстройка 1 раз в 7 дней.",
       "type": "Boolean",
-      "init": true,
+      "init": false,
       "value": true
     },
 	{
@@ -195,7 +223,7 @@
       "name": "Калибровка датчика на свежем воздухе",
 	  "description": "Встроенный функционал от производителя сенсора, оставить датчик на открытом воздухе на 1 час, потом активировать калибровку, к измеренному воздуху будет привязана точка в 400 ppm.",
       "type": "Boolean",
-      "init": true,
+      "init": false,
       "value": false
     },
     {
@@ -222,7 +250,7 @@
 		},
       "name": "RGB подсветка дисплея",
       "type": "Boolean",
-      "init": true,
+      "init": false,
       "value": true
     },
     {
@@ -235,7 +263,7 @@
       "name": "Отключение RGB подсветки дисплея в ночном режиме",
 	  "description": "Работает по заданным временным порогам в свойствах активация и деактивация ночного режима.",
       "type": "Boolean",
-      "init": true,
+      "init": false,
       "value": false
     },
     {
@@ -248,7 +276,7 @@
       "name": "Время активации ночного режима",
 	  "unit": "час",
       "type": "Integer",
-      "init": true,
+      "init": false,
       "value": 22,
       "minValue": 0,
       "maxValue": 23
@@ -263,7 +291,7 @@
       "name": "Время деактивации ночного режима",
 	  "unit": "час",
       "type": "Integer",
-      "init": true,
+      "init": false,
       "value": 6,
       "minValue": 0,
       "maxValue": 23
@@ -279,7 +307,7 @@
 	  "description": "Единица равна корректировке в 0.1°C.",
 	  "unit": "°C",
       "type": "Integer",
-      "init": true,
+      "init": false,
       "value": 1,
       "minValue": -50,
       "maxValue": 50
@@ -294,7 +322,7 @@
       "name": "Корректировка влажности",
 	  "unit": "%",
       "type": "Integer",
-      "init": true,
+      "init": false,
       "value": 1,
       "minValue": -50,
       "maxValue": 50
@@ -309,7 +337,7 @@
       "name": "Газостат СО2",
 	  "description": "Активация режима управления внешнего исполнительного устройства, должна быть сделана привязка (bind).",
       "type": "Boolean",
-      "init": true,
+      "init": false,
       "value": false
     },
     {
@@ -322,7 +350,7 @@
       "name": "Газостат СО2, Инвертирование",
 	  "description": "Инвертирование логики работы, ...включить, если выше верхнего уровня / ...выключить, если выше верхнего уровня.",
       "type": "Boolean",
-      "init": true,
+      "init": false,
       "value": false
     },
     {
@@ -335,7 +363,7 @@
       "name": "Газостат СО2, верхняя граница",
 	  "unit": "ppm",
       "type": "Integer",
-      "init": true,
+      "init": false,
       "value": 2000,
       "minValue": 400,
       "maxValue": 2000
@@ -350,7 +378,7 @@
       "name": "Газостат СО2, нижняя граница",
 	  "unit": "ppm",
       "type": "Integer",
-      "init": true,
+      "init": false,
       "value": 400,
       "minValue": 400,
       "maxValue": 2000
