@@ -1,4 +1,4 @@
-# EFEKTA Pixel Open Air v1
+# EFEKTA Pixel Open Air v1 v2
 
 (Sensair S8 / MH-Z19/B/C/D/E)
 
