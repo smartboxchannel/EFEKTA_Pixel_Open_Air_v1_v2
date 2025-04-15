@@ -1,5 +1,5 @@
 G04 DipTrace 4.3.0.5*
-G04 TopDimension.gbr*
+G04 TopAssembly.gbr*
 %MOMM*%
 G04 #@! TF.FileFunction,Drawing,Top*
 G04 #@! TF.Part,Single*
@@ -9,6 +9,6 @@ G71*
 G90*
 G75*
 G01*
-G04 TopDimension*
+G04 TopAssy*
 %LPD*%
 M02*
