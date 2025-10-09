@@ -1,0 +1,190 @@
+{
+    "EFEKTA": [
+        {
+            "description": "CO2 Monitor with LCD Display, temperature and humidity, date and time",
+            "modelNames": [
+                "EFEKTA_Pixel_Open_Air_II"
+            ],
+            "exposes": [
+                "co2",
+                "temperature",
+                "humidity",
+                "backlight",
+                "nightBacklight",
+                "nightBacklightOn",
+                "nightBacklightOff",
+                "contrast",
+                "temperatureOffset",
+                "humidityOffset",
+                "co2AutoCalibration",
+                "co2Relay",
+                "co2RelayInvert",
+                "co2Low",
+                "co2High"
+            ],
+            "options": {
+                "customAttributes_1": {
+                    "backlight": {
+                        "type": "bool",
+                        "clusterId": 1037,
+                        "attributeId": 529,
+                        "dataType": 16,
+                        "action": true
+                    },
+                    "nightBacklight": {
+                        "type": "bool",
+                        "clusterId": 1037,
+                        "attributeId": 1025,
+                        "dataType": 16,
+                        "action": true
+                    },
+                    "nightBacklightOn": {
+                        "type": "value",
+                        "clusterId": 1037,
+                        "attributeId": 1029,
+                        "dataType": 32,
+                        "action": true
+                    },
+                    "nightBacklightOff": {
+                        "type": "value",
+                        "clusterId": 1037,
+                        "attributeId": 1030,
+                        "dataType": 32,
+                        "action": true
+                    },
+                    "contrast": {
+                        "type": "value",
+                        "clusterId": 1037,
+                        "attributeId": 1093,
+                        "dataType": 32,
+                        "action": true
+                    },
+                    "co2AutoCalibration": {
+                        "type": "bool",
+                        "clusterId": 1037,
+                        "attributeId": 1026,
+                        "dataType": 16,
+                        "action": true
+                    },
+                    "co2Relay": {
+                        "type": "bool",
+                        "clusterId": 1037,
+                        "attributeId": 544,
+                        "dataType": 16,
+                        "action": true
+                    },
+                    "co2RelayInvert": {
+                        "type": "bool",
+                        "clusterId": 1037,
+                        "attributeId": 549,
+                        "dataType": 16,
+                        "action": true
+                    },
+                    "co2High": {
+                        "type": "value",
+                        "clusterId": 1037,
+                        "attributeId": 545,
+                        "dataType": 33,
+                        "action": true
+                    },
+                    "co2Low": {
+                        "type": "value",
+                        "clusterId": 1037,
+                        "attributeId": 546,
+                        "dataType": 33,
+                        "action": true
+                    }
+                },
+                "customAttributes_2": {
+                    "temperatureOffset": {
+                        "type": "value",
+                        "clusterId": 1026,
+                        "attributeId": 528,
+                        "dataType": 41,
+                        "divider": 10,
+                        "action": true
+                    },
+                    "humidityOffset": {
+                        "type": "value",
+                        "clusterId": 1029,
+                        "attributeId": 528,
+                        "dataType": 41,
+                        "action": true
+                    }
+                },
+                "nightBacklight": {
+                    "type": "toggle"
+                },
+                "nightBacklightOn": {
+                    "type": "number",
+                    "min": 0,
+                    "max": 23,
+                    "unit": "h"
+                },
+                "nightBacklightOff": {
+                    "type": "number",
+                    "min": 0,
+                    "max": 23,
+                    "unit": "h"
+                },
+                "contrast": {
+                    "type": "number",
+                    "min": 0,
+                    "max": 40
+                },
+                "co2High": {
+                    "min": 400,
+                    "max": 5000
+                },
+                "co2Low": {
+                    "min": 400,
+                    "max": 5000
+                },
+                "temperatureOffset": {
+                    "min": -50,
+                    "max": 50,
+                    "step": 0.1,
+                    "unit": "°C"
+                },
+                "humidityOffset": {
+                    "min": -50,
+                    "max": 50,
+                    "unit": "%"
+                }
+            }
+        },
+        {
+            "modelNames": [
+                "EFEKTA_Pixel_Open_Air_II"
+            ],
+            "properties": [
+                "co2"
+            ],
+            "bindings": [
+                "co2"
+            ],
+            "reportings": [
+                "co2"
+            ],
+            "endpointId": 1
+        },
+        {
+            "modelNames": [
+                "EFEKTA_Pixel_Open_Air_II"
+            ],
+            "properties": [
+                "temperature",
+                "humidity"
+            ],
+            "bindings": [
+                "temperature",
+                "humidity"
+            ],
+            "reportings": [
+                "temperature",
+                "humidity"
+            ],
+            "endpointId": 2
+        }
+    ]
+}
